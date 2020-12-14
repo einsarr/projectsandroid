@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/lblForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inscription"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nom"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/txtPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Prénom"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:textSize="30sp" />
+    <Spinner
+        android:id="@+id/spinnerSexe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtAdresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Adresse"
+        android:inputType="textPersonName"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtFiliere2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Filière"
+        android:inputType="textPersonName"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtClasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Classe"
+        android:inputType="textPersonName"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/btnAnnule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/rouge"
+        android:text="Quitter"
+        android:textSize="30sp" />
+</LinearLayout>

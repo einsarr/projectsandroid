@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MohamedYoussfi</string>
+    <string name="devinez">Guess</string>
+    <string name="valeur_sup">The value is greater</string>
+    <string name="valeur_inf">The value is Smaller</string>
+    <string name="bravo">Congratullation</string>
+    <string name="rejouer">Replay</string>
+    <string name="oui">YES</string>
+    <string name="quitter">EXIT</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="top|center"
+        android:layout_width="match_parent"
+        android:textSize="@android:dimen/app_icon_size"
+        android:layout_height="wrap_content"
+        android:text="Inscription"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/prenom"
+        android:hint="Saisir le prénom"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/nom"
+        android:hint="Saisir le nom"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:id="@+id/datenaissance"
+        android:hint="Saisir la date de naissance"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/lieunaissance"
+        android:hint="Saisir le lieu de naissance"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|phone"
+        android:id="@+id/telephone"
+        android:hint="Saisir le téléphone"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        android:hint="Saisir le mail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/login"
+        android:hint="Saisir le login"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        android:hint="Saisir le mot de passe"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/valider"
+        android:text="Enregistrer"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff0000"
+        android:id="@+id/annuler"
+        android:text="Annuler"
+        />
+</LinearLayout>

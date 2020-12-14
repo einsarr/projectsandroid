@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<TextView
+    android:textStyle="bold"
+    android:gravity="top|center"
+    android:layout_width="match_parent"
+    android:textSize="@android:dimen/app_icon_size"
+    android:layout_height="wrap_content"
+    android:text="Inscription"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/prenom"
+        android:text="Saisir le prénom"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/nom"
+        android:text="Saisir le nom"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/datenaissance"
+        android:text="Saisir la date de naissance"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/lieunaissance"
+        android:text="Saisir le lieu de naissance"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/telephone"
+        android:text="Saisir le téléphone"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/email"
+        android:text="Saisir le mail"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/valider"
+        android:text="Enregistrer"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rouge"
+        android:id="@+id/annuler"
+        android:text="Annuler"
+        />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exo4</string>
+    <string-array name="sexe">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MohamedYoussfi</string>
+    <string name="devinez">Devinez</string>
+    <string name="valeur_sup">Valeur supérieur</string>
+    <string name="valeur_inf">Valeur inférieur</string>
+    <string name="bravo">BRAVO</string>
+    <string name="rejouer">Rejouer</string>
+    <string name="oui">OUI</string>
+    <string name="quitter">Quitter</string>
+</resources>
